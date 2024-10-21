@@ -1,11 +1,16 @@
 # EUV-Elastic-Net
 Contains packages and notebooks for the statistical analysis of an Elastic Net model of the solar atmosphere.
 
+Created by Griffin Keener at the Laboratory for Atmospheric and Space Physics
+
+contact: griffinkeener@lasp.colorado.edu
+
 # Jupyter Notebook
 
 The Jupyter notebook contains the code necessary to run the package scripts. It also contains some plotting code to visualize the results
 
-# Data Files
+# Data Files 
+Note - The arrays_compressed file is too large to go here, 
 1. Arrays_compressed.npz - Large file containing the EUV spectral data, and the DEM spectrum from the EVE, EXIS, and AIA instruments. This data is used for the Elastic Net Regularization to obtain linear equations/coefficients for each wavelength of the spectrum.
 
 2. Ion_line_list.xlsx - The Chianti line list in Excel spreadsheet format. Read in as a pandas dataframe. Used for determining the locations of the emitting ions in the solar atmosphere.
